@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/icon/google.svg" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Google</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="https://mail.google.com/">Gmail</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com.ar/imghp">Imágenes</a>
+                </li>
+                <li>
+                    <a href="https://www.google.com.ar/intl/es/about/products">
+                    <img src="./src/img/aplicaciones_google.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://accounts.google.com/login?hl=es">
+                        <button class="inicio">Iniciar Sesion</button>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="medio">
+            <img src="./src/img/logo_google.png">  
+        </div>
+
+        <div class="form">
+            <form action="/direccionDelServidor" method="POST">
+                <label for="busqueda"></label>
+                <input id="busqueda" name="busqueda" type="search" size="40">
+            </form>
+        </div>
+        
+        <div class="buscar">
+            <span>
+                <button>Buscar con Google</button>
+            </span>
+            <span>
+                <button>Me siento con suerte</button>
+            </span>
+        </div>
+        
+        <div>
+            <p>Ofrecido por Google en: 
+                <a href="https://www.google.com.ar/">Español (Latinoamérica)
+
+                </a>
+            </p>
+        </div>
+
+    </main>
+    
+    <footer class="footer">
+        <p class="argentina">Argentina</p>
+    </footer>
+    
+</body>
+
+</html>
